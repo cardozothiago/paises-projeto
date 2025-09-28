@@ -1,14 +1,13 @@
-/* Container principal */
+
 .detail-container {
     margin-top: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    color: #e0e0e0; /* texto claro */
+    color: #e0e0e0; 
 }
 
-/* Loading */
 .detail-loading {
     margin-top: 64px;
     display: flex;
@@ -16,7 +15,6 @@
     align-items: center;
 }
 
-/* Card do header */
 .detail-card-header{
     width: 100%;
     max-width: 800px;
@@ -25,7 +23,7 @@
     align-items: center;
   
     padding: 24px;
-    background-color: #1e1e1e !important; /* fundo escuro */
+    background-color: #1e1e1e !important; 
     border-radius: 16px;
     color: #e0e0e0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
@@ -40,19 +38,17 @@
     justify-items: center;
     gap:16px;
     padding: 24px;
-    background-color: #1e1e1e !important; /* fundo escuro */
+    background-color: #1e1e1e !important; 
     border-radius: 16px;
     color: #e0e0e0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 
-/* Nome do país */
 .detail-country-name {
-    color: #90caf9; /* destaque azul */
+    color: #90caf9; 
 }
 
-/* Bandeira */
 .detail-flag {
     width: 120px !important;
     height: 120px !important;
@@ -60,7 +56,6 @@
     border: 2px solid #333;
 }
 
-/* Card de informações */
 .detail-card-info {
     width: 100%;
     max-width: 800px;
@@ -70,35 +65,34 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
-/* CardContent */
+
 .detail-card-info .MuiCardContent-root {
     background-color: #1e1e1e !important; /* fundo escuro */
     color: #e0e0e0;
     padding: 16px !important;
 }
 
-/* List */
+
 .detail-card-info .MuiList-root {
     background-color: #1e1e1e !important;
     color: #e0e0e0;
 }
 
-/* ListItem */
+
 .detail-card-info .MuiListItem-root {
     border-bottom: 1px solid #333;
     background-color: #1e1e1e !important;
 }
 
-/* ListItemText */
+
 .detail-card-info .MuiListItemText-primary {
-    color: #90caf9; /* destaque azul */
+    color: #90caf9; 
 }
 
 .detail-card-info .MuiListItemText-secondary {
     color: #e0e0e0;
 }
 
-/* Responsividade */
 @media (max-width: 600px) {
     .detail-card-header {
         flex-direction: column;
@@ -112,31 +106,28 @@
     }
 }
 
-/* Card de histórico */
 .detail-card-history {
   width: 100%;
   max-width: 800px;
-  background-color: #1e1e1e !important; /* fundo escuro */
+  background-color: #1e1e1e !important; 
   border-radius: 16px;
   color: #e0e0e0;
   box-shadow: 0 2px 10px rgba(0,0,0,0.4);
   padding: 16px;
 }
 
-/* Título do histórico */
 .detail-history-title {
   color: #90caf9;
   margin-bottom: 8px;
 }
 
-/* Texto do histórico */
 .detail-history-text {
   color: #e0e0e0;
   max-height: 300px;
   overflow-y: auto;
   line-height: 1.6;
-  white-space: pre-line; /* mantém quebras de linha */
-  padding-right: 8px; /* para scrollbar não sobrepor texto */
+  white-space: pre-line;
+  padding-right: 8px; 
 }
 
 .detail-indicators-btn, .detail-home-btn {
