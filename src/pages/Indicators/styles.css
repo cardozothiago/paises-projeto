@@ -1,0 +1,70 @@
+
+.dashboard-container {
+  background-color: #121212;
+  min-height: 100vh;
+  padding: 32px;
+  color: #ffffff;
+}
+
+.dashboard-container h4,
+.dashboard-container h5 {
+  color: #5375b6;
+}
+
+.category-cards {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 24px;       
+}
+
+.category-cards .card-wrapper {
+  flex: 1 1 300px; 
+  max-width: 350px; 
+}
+
+
+.dashboard-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+
+.detail-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 24px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 12px;
+}
+
+
+.detail-country-name {
+  font-weight: bold;
+}
+
+
+.detail-flag {
+  width: 48px;
+  height: 36px;
+  border-radius: 4px;
+}
+
+
+.detail-card-buttons {
+  display: flex;
+  gap: 16px;
+  padding: 12px 24px;
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  justify-content: center;
+}
+
+.detail-card-buttons .MuiButton-root {
+  min-width: 140px;
+}

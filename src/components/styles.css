@@ -1,0 +1,32 @@
+
+.dark-card {
+  background-color: #1e1e1e !important;
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.dark-card h6{
+  color: #ffffff;
+}
+
+.recharts-tooltip-wrapper, .recharts-tooltip-cursor {
+  background-color: #ff0000 !important;
+  color: #373535 !important;
+  border: 1px solid #555555;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.recharts-cartesian-grid line {
+  stroke: #444444 !important;
+}
+
+.recharts-cartesian-axis-tick-value {
+  fill: #ffffff !important;
+  font-size: 0.85rem;
+}
+.recharts-cartesian-axis-label {
+  fill: #ffffff !important;
+  font-size: 0.85rem;
+}
